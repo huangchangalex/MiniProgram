@@ -1,0 +1,8 @@
+<!--pages/main/main.wxml-->
+<view class='contain'>
+  <view  class='item' bindtap='toEditPage' bindlongpress='alertRemove' data-tip-id="{{item.tipId}}" wx:for="{{tipArray}}" wx:key="{{title}}">
+    <text class='content'>{{item.content}}</text>
+    <text class='date'>{{item.date}}</text>
+  </view>
+</view>
+  <button class='button' bindtap='toAddPage'>新增</button>

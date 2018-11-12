@@ -1,0 +1,6 @@
+<!--pages/detail/detail.wxml-->
+<view class='contain'>
+<input class='input' bindinput='onInput' value='{{tip.content}}'>
+
+</input>
+</view>

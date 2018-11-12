@@ -1,0 +1,5 @@
+<!--pages/add/add.wxml-->
+<view class='contain'>
+<input  bindinput='onInput'>
+</input>
+</view>
